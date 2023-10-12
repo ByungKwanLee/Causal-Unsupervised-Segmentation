@@ -1,0 +1,15 @@
+.vscode/
+CAUSE/
+checkpoint/
+logs/
+results/
+visualize_concept.py
+visualize_distance_matrix.py
+scikit_cluster.py
+linear_probing_mlp.py
+linear_probing_tr.py
+test_category_mlp.py
+test_category_tr.py
+crop.py
+*/__pycache__
+__pycache__

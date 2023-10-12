@@ -1,0 +1,91 @@
+#!/bin/bash
+######################################
+# [OPTION] DATASET
+
+# cocostuff27
+dataset="cocostuff27"
+
+# cityscapes
+# dataset="cityscapes"
+
+# pascalvoc
+# dataset="pascalvoc"
+
+# coco-81
+# dataset="coco81"
+
+# coco-171
+# dataset="coco171"
+######################################
+
+######################################
+# [OPTION] STRUCTURE
+# structure="MLP"
+structure="TR"
+######################################
+
+######################################
+# [OPTION] Self-Supervised Method
+
+# DINO
+# ckpt="checkpoint/dino_vit_small_8.pth"
+# ckpt="checkpoint/dino_vit_small_16.pth"
+ckpt="checkpoint/dino_vit_base_8.pth"
+# ckpt="checkpoint/dino_vit_base_16.pth"
+
+# DINOv2
+# ckpt="checkpoint/dinov2_vit_base_14.pth"
+
+# iBOT
+# ckpt="checkpoint/ibot_vit_base_16.pth"
+
+# MSN
+# ckpt="checkpoint/msn_vit_small_16.pth"
+
+# MAE
+# ckpt="checkpoint/mae_vit_base_16.pth"
+######################################
+
+######################################
+# GPU and PORT
+if [ "$structure" = "MLP" ]
+then
+    train_gpu="0,1,2,3"
+elif [ "$structure" = "TR" ]
+then
+    train_gpu="4,5,6,7"
+fi
+
+# Non-Changeable Variable
+test_gpu="${train_gpu:0}"
+port=$(($RANDOM%800+1200))
+######################################
+
+######################################
+# [STEP1] MEDIATOR
+python train_mediator.py --dataset $dataset --ckpt $ckpt --gpu $train_gpu --port $port
+######################################
+
+######################################
+# [STEP2] CAUSE
+if [ "$structure" = "MLP" ]
+then 
+    python train_front_door_mlp.py --dataset $dataset --ckpt $ckpt --gpu $train_gpu --port $port
+    python fine_tuning_mlp.py --dataset $dataset --ckpt $ckpt --gpu $train_gpu --port $port
+elif [ "$structure" = "TR" ]
+then
+    python train_front_door_tr.py --dataset $dataset --ckpt $ckpt --gpu $train_gpu --port $port 
+    python fine_tuning_tr.py --dataset $dataset --ckpt $ckpt --gpu $train_gpu --port $port
+fi
+######################################
+
+######################################
+# TEST
+if [ "$structure" = "MLP" ]
+then 
+    python test_mlp.py --dataset $dataset --ckpt $ckpt --gpu $test_gpu
+elif [ "$structure" = "TR" ]
+then 
+    python test_tr.py --dataset $dataset --ckpt $ckpt --gpu $test_gpu
+fi
+######################################
