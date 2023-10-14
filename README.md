@@ -2,13 +2,14 @@
 # ***Title: Causal Unsupervised Semantic Segmentation***
 
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/causal-unsupervised-semantic-segmentation/unsupervised-semantic-segmentation-on-coco-4)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-on-coco-4?p=causal-unsupervised-semantic-segmentation)
-
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/causal-unsupervised-semantic-segmentation/unsupervised-semantic-segmentation-on-coco-2)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-on-coco-2?p=causal-unsupervised-semantic-segmentation)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/causal-unsupervised-semantic-segmentation/unsupervised-semantic-segmentation-on-coco-7)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-on-coco-7?p=causal-unsupervised-semantic-segmentation)
-
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/causal-unsupervised-semantic-segmentation/unsupervised-semantic-segmentation-on)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-on?p=causal-unsupervised-semantic-segmentation)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/causal-unsupervised-semantic-segmentation/unsupervised-semantic-segmentation-on-coco-8)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-on-coco-8?p=causal-unsupervised-semantic-segmentation)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/causal-unsupervised-semantic-segmentation/unsupervised-semantic-segmentation-on-coco-6)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-on-coco-6?p=causal-unsupervised-semantic-segmentation)
+
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/causal-unsupervised-semantic-segmentation/unsupervised-semantic-segmentation-on-pascal-1)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-on-pascal-1?p=causal-unsupervised-semantic-segmentation)
 
