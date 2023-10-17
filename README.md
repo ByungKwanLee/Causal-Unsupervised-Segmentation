@@ -47,7 +47,7 @@ Figure 3. Log scale of mIoU results for each categories in COCO-Stuff (Black: Th
 
 ---
 
-## Download Visual Quality, Seg Head Parameter, and Concept ClusterBook of CAUSE
+## 🚀 Download Visual Quality, Seg Head Parameter, and Concept ClusterBook of CAUSE
 
 You can download the checkpoint files including CAUSE-trained parameters based on
 [DINO](https://openaccess.thecvf.com/content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf), [DINOv2](https://arxiv.org/pdf/2304.07193.pdf), [iBOT](https://openreview.net/pdf?id=ydopy-e6Dg), [MSN](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136910442.pdf), [MAE](https://openaccess.thecvf.com/content/CVPR2022/papers/He_Masked_Autoencoders_Are_Scalable_Vision_Learners_CVPR_2022_paper.pdf)
@@ -119,7 +119,7 @@ you can download them in the following links:
 
 ---
 
-## CAUSE Framework (Top-Level File Directory Layout) 
+## 🤖 CAUSE Framework (Top-Level File Directory Layout) 
     .
     ├── loader
     │   ├── netloader.py                # Self-Supervised Pretrained Model Loader & Segmentation Head Loader
@@ -154,7 +154,7 @@ you can download them in the following links:
 
 
 ---
-## How to Run CAUSE?
+## 📊 How to Run CAUSE?
 
 
 For the first, we should generate the cropped dataset by following [STEGO](https://github.com/mhamilton723/STEGO) in ICLR 2022.
@@ -284,7 +284,7 @@ python test_tr.py # CAUSE-TR
 ---
 
 
-## Environment Settings
+## 💡 Environment Settings
 
 * Creating Virtual Environment by Anaconda
 > conda create -y -n neurips python=3.9
@@ -300,7 +300,7 @@ python test_tr.py # CAUSE-TR
 
 ---
 
-## Download Datasets
+## 🍅 Download Datasets
 ### Available Datasets
 * [COCO-Stuff](https://paperswithcode.com/dataset/coco-stuff)
 * [Cityscapes](https://paperswithcode.com/dataset/cityscapes)
