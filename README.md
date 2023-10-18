@@ -1,8 +1,8 @@
 
-# ***Title: Causal Unsupervised Semantic Segmentation***
+# ***Title: [Causal Unsupervised Semantic Segmentation](https://arxiv.org/pdf/2310.07379v1.pdf)***
 
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/causal-unsupervised-semantic-segmentation/unsupervised-semantic-segmentation-on-coco-2)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-on-coco-2?p=causal-unsupervised-semantic-segmentation)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/causal-unsupervised-semantic-segmentation/unsupervised-semantic-segmentation-on-coco-7)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-on-coco-7?p=causal-unsupervised-semantic-segmentation)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/causal-unsupervised-semantic-segmentation/unsupervised-semantic-segmentation-on)](https://paperswithcode.com/sota/unsupervised-semantic-segmentation-on?p=causal-unsupervised-semantic-segmentation)
 
