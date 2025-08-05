@@ -1,0 +1,10 @@
+matplotlib
+timm
+tqdm
+scipy
+numpy
+tensorboardX
+wget
+scikit-image
+scikit-learn
+xformers
